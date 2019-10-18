@@ -1,0 +1,221 @@
+.trainingbannertop {
+    height: 350px;
+    padding-top: 86px;
+    padding-left: 10px;
+    background-image: url("../images/training-banner.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.bannertop {
+    height: 350px;
+    padding-top: 86px;
+    padding-left: 10px;
+    background-image: url("../images/support-banner.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.btn-snow:visited{
+  color: #fff !important;
+}
+
+.top-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.bannercontact {
+    width: 100%;
+    height: 350px;
+    max-height: 400px;
+    display: inline-block;
+    position: relative;
+    background-image: url("../images/support-banner-2.jpg");
+
+	
+	    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.hideLink{
+  display: none;
+}
+
+.bannersnow {
+    width: 100%;
+    /* height: 300px; */
+    height: auto;
+    min-height: 350px;
+    max-height: 400px;
+    display: inline-block;
+    position: relative;
+    background-image: url("../images/snow-image.jpg");
+
+	
+	    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.snow-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  padding-top: 60px;
+  bottom: 135px;	
+
+}
+
+.c-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  padding-top: 20px;
+
+}
+
+.contentleft{
+	  width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+
+}
+
+.contentright{
+  width: 50%;
+  float: right;
+  position: absolute;
+  bottom: 135px;
+  right: 0;
+  color: #ffffff;
+  text-align: left;
+
+	
+}
+
+.clearfix
+{
+
+	float: none;
+}
+
+.contentright p
+{
+
+font-size: 1.2em;
+
+}
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size:20px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 auto 2em;
+  max-width: 250px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+
+  
+  @media(min-width: 400px) {
+    display: inline-block;
+    margin-right: 2.5em;
+  
+    &:nth-of-type(even) {
+      margin-right: 0;
+    }
+  }
+  
+  @media(min-width: 600px) {
+  
+    &:nth-of-type(even) {
+      margin-right: 2.5em;
+    }
+    
+    &:nth-of-type(5) {
+      margin-right: 0;
+    }
+    
+  }
+  
+  &:hover { text-decoration: none; }
+  
+}
+
+.btn-snow {
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+} 
+
+.btn-snow:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+
+
+
+
+
+
+/* Training page video gallery */
+
+ul li,ol li{margin:20px 0}
+p,ul{padding-left:0}
+header{margin-bottom:5%}
+h1{font-size:48px;font-weight:400;line-height:1;text-transform:uppercase;letter-spacing:1px;text-align:center;margin:0}
+@media (max-width: 1024px)
+{h1{font-size:36px}}
+
+h2{font-size:13px;font-weight:400;line-height:1.25;color:#555;letter-spacing:none;text-align:center;padding:5px 8px;margin:0;white-space:nowrap}
+@media (max-width: 1200px){h2{font-size:15px}}
+
+section{padding:10% 5%;width:100%}
+.first p{width:50%;margin:10% auto;text-align:center}@media (max-width: 768px){.first p{width:90%}}
+
+{color:#0e1c23;text-shadow:0 1px 0 #4892b5;background:#3d7c9a}
+.sixth{background:#bb4b79}.sixth pre,.sixth code{color:#2a101b;text-shadow:0 1px 0 #bb4b79;background:#a23d67}
+.video{background:#fff;
+	padding-bottom:15px;box-shadow:0 1px 1px rgba(0,0,0,0.15);width:18%;margin:1%;float:left;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-webkit-transition:all 0.5s ease;transition:all 0.5s ease}
+
+@media (max-width: 1366px){
+	.video{width:23%}}@media (max-width: 1024px){
+		.video{width:31.333%}}@media (max-width: 768px){
+			.video{width:48%}}@media (max-width: 480px){
+				.video{display:block;width:100%;margin:2%;float:none}}
+.video figure{height:0;padding-bottom:60%}
+.video img{width:100%;opacity:1}
+.video img:hover,
+.video img:active,
+.video img:focus{opacity:0.75}img{max-width:100%;height:auto}
+.clearfix{content:"";
+	display:table;
+	clear:both;
+	padding-top: 20px;
+	padding-bottom: 20px;}
